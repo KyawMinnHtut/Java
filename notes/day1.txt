@@ -1,0 +1,8 @@
+﻿    • The Java programming language is strongly and statically typed.
+    • The primitive types are defined to be the same on all machines and in all implementations, and are various sizes of 
+        1. two's-complement integers,
+        2. IEEE 754 floating-point numbers,
+        3. a boolean type, and
+        4. a Unicode character char type. Values of the primitive types do not share state.
+    • Reference types are the class types, the interface types, and the array types. The reference types are implemented by dynamically created objects that are either instances of classes or arrays. Many references to each object can exist.
+  
