@@ -1,0 +1,56 @@
+Primitive Types		-> not share state with other primitive values.
+	1. Boolean Type
+	2. Numeric Types -> Integral Types	and 	Floating-point Types
+						- byte	(8-bit)			- float 	(32-bit)
+						- short	(16-bit)		- double	(64-bit)
+						- int 	(32-bit)
+						- long 	(64-bit)
+						- char	(16-bit)
+
+Reference Types
+	1. Class types
+	2. Interface types
+	3. Type variables
+	4. Array types
+
+Special null Type -> impossible to declare or cast to null type, be ignored for a special literal of any reference type.
+
+Boolean Type and Values
+literals ==> true and false
+
+Boolean Operators
+1. the relational operators == and !=
+2. the logical complement operator !
+3. the logical operators &, ^ and |
+4. the conditional-and and conditional-or operators => && and ||
+5. the conditional operaotr => ? :
+6. the string concatenation operator => +
+
+Boolean expression determine the control flow in several kinds of statements
+
+Integral Types and Values
+range = [-2^n-1, 2^(n-1)-1]
+char => from '\u0000' to '\uffff' inclusive that is from 0 to 65535
+
+Integer Operations
+1. the comparison operators
+2. the numerical operators
+3. the conditional operator => ? :
+4. the cast operator
+5. the string concatenation operator => +
+
+Integer Operator can throw
+	1. NullPointerException
+	2. ArithmeticException
+	3. OutOfMemoryError
+
+Floating-Point Operations
+1. the comparison operators
+2. the numerical operators
+3. the conditional operator
+4. the cast operator
+5. the string concatenation operator
+
+Floating-point operator can throw
+	1. NullPointerException
+	2. OutOfMemoryError

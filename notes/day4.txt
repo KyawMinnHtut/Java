@@ -1,0 +1,25 @@
+Objects
+	An object is a class instance or an array.
+	The reference values (often just references) are pointers to these objects, and a special null reference, which refers to no object.
+
+Operators on reference to Objects
+	1. field access or field access expression
+	2. method invocation
+	3. the cast operator
+	4. the string concatenation operator
+	5. the "instanceof" operator
+	6. the reference equlality operators == and !=
+	7. the conditional operator
+
+The Class "Object"
+	The class "Object" is a superclass of all other classed.
+	All class and array types inherit the methods of class "Object".
+
+The Class "String"
+	Instances of class "String" represent sequences of Unicode code points.
+	A "String" object has a constant (unchanging) value.
+	String literals and text blocks are references to instances of class "String".
+
+Type Variables
+	A type variable is an unqualified identifier used as a type in class, interface, method, and constructor bodies.
+	A type variable is introduced by the declaration of a type parameter of a generic class, interface, method, or constructor.
