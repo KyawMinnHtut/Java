@@ -1,0 +1,36 @@
+Parameterized Types
+	A class or interface that is generic defines a set of parameterized types.
+	A parameterized type is a class or interface type of the form C<T1,...,Tn>, where C is the name of a generic class or interface and <T1,...Tn> is a list of type arguments that denote a particular parameterization of the generic class or interface.
+
+ Type Arguments - wildcards(?), upper bound(? extends T), lower bound(? super T)
+
+Type Erasure
+	Type erasure is a mapping from types (possibly including parameterized types and type variables) to types (that are never parameterized types or type variables).
+
+Reifiable Types
+	Types that are completely available at run time are known
+as reifiable types.
+
+Raw Types
+	A raw type is the name of a generic class or interface without any type arguments.
+
+Where Types Are Used
+
+Variables
+	A variable is a storage location had has an associated type, sometimes called its compile-time type, that is either a primitive type or a reference type.
+	A varible value is changed by an assignment or by a prefix or postfix operator.
+
+Heap Pollution
+	It is possible that a variable of a parameterized type will refer to an object that is not of that parameterized type. This situation is known as heap pollution.
+
+Kinds of Variables
+	1. class variable
+	2. instance variable
+	3. array components
+	4. method parameters
+	5. constructor parameters
+	6. lambda parameters
+	7. exception parameter
+	8. local variables
+
+For all REFERENCE types, the default value is null.
