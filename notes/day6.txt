@@ -1,0 +1,11 @@
+Conversions
+	1. Identity conversions
+	2. Widening primitive conversions
+	3. Narrowing primitive conversions
+	4. Widening reference conversions
+	5. Narrowing reference conversions
+	6. Boxing conversions
+	7. Unboxing conversions
+	8. Unchecked conversions
+	9. Capture conversions
+	10.String conversions
